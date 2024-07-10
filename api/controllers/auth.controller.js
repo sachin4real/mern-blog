@@ -13,7 +13,7 @@ export const signup = async(req,res,next)=>{
 
     const newUser  = new User({
         username,
-        email:email,
+        email,
         password : hashedPassword
 
     });
